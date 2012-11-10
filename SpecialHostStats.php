@@ -14,8 +14,8 @@ class SpecialHostStats extends SpecialPage {
 	function execute( $par ) {
 		global $wgHostStatsCommands;
 		$this->setHeaders();
-		$this->getOutput->setPageTitle( wfMessage( 'hoststats-title' ) );
-		$outpage = wfMessage( 'hoststats-intro' );
+		$this->getOutput->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
+		$outpage = wfMessage( 'hoststats-intro' )->escaped();
 		$outpage .= "\n";
 		foreach ( $wgHostStatsCommands as $cmd ) {
 			$outpage .= '<h3>' . $cmd . '</h3>';
