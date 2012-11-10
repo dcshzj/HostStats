@@ -12,17 +12,16 @@ class SpecialHostStats extends SpecialPage {
 	}
 
 	function execute( $par ) {
-		global $wgRequest, $wgOut;
 		global $wgHostStatsCommands;
 		$this->setHeaders();
-		$wgOut->setPageTitle( wfMessage( 'hoststats-title' ) );
+		$this->getOutput->setPageTitle( wfMessage( 'hoststats-title' ) );
 		$outpage = wfMessage( 'hoststats-intro' );
 		$outpage .= "\n";
 		foreach ( $wgHostStatsCommands as $cmd ) {
 			$outpage .= '<h3>' . $cmd . '</h3>';
 			$outpage .= "\n<pre>\n" . $this->query( $cmd ) . "</pre>";
 		}
-		$wgOut->addWikiText( $outpage );
+		$this->getOutput->addWikiText( $outpage );
 	}
 
 	function query( $query ) {
