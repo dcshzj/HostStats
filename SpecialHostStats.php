@@ -29,14 +29,14 @@ class SpecialHostStats extends SpecialPage {
 				continue;
 			}
 		}
-		$this->getOutput->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
+		$this->getOutput()->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
 		$outpage = wfMessage( 'hoststats-intro' )->escaped();
 		$outpage .= "\n";
 		foreach ( $commands as $cmd ) {
 			$outpage .= '<h3>' . $cmd . '</h3>';
 			$outpage .= "\n<pre>\n" . $this->query( $cmd ) . "</pre>";
 		}
-		$this->getOutput->addWikiText( $outpage );
+		$this->getOutput()->addWikiText( $outpage );
 	}
 
 	protected function query( $query ) {
