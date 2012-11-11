@@ -20,7 +20,7 @@ class SpecialHostStats extends SpecialPage {
 		$commands = array();
 		foreach ( $wgHostStatsCommands as $cmd ) {
 			if ( in_array( $cmd, $this->cmdwhitelist ) ) {
-				array_push( array( $cmd ), $commands );
+				array_push( $cmd, $commands );
 			} else {
 				# Reject those unsafe commands and log it to hoststats
 				wfDebugLog( "hoststats", "Rejected running command '" . 
