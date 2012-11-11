@@ -7,11 +7,11 @@
  */
 
 class SpecialHostStats extends SpecialPage {
-	function __construct() {
+	public function __construct() {
 		parent::__construct( 'HostStats' );
 	}
 
-	function execute( $par ) {
+	public function execute( $par ) {
 		global $wgHostStatsCommands;
 		$this->setHeaders();
 		$this->getOutput->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
@@ -24,7 +24,7 @@ class SpecialHostStats extends SpecialPage {
 		$this->getOutput->addWikiText( $outpage );
 	}
 
-	function query( $query ) {
+	protected function query( $query ) {
 		$output = wfShellExec( $query );
 		return $output;
 	}
