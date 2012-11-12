@@ -7,8 +7,6 @@
  */
 
 class SpecialHostStats extends SpecialPage {
-	protected $cmdwhitelist;
-
 	public function __construct() {
 		parent::__construct( 'HostStats' );
 	}
@@ -16,6 +14,7 @@ class SpecialHostStats extends SpecialPage {
 	public function execute( $par ) {
 		global $wgHostStatsCommands;
 		$this->setHeaders();
+<<<<<<< HEAD
 		$this->whitelistedcmds();
 		$commands = array();
 		foreach ( $wgHostStatsCommands as $cmd ) {
@@ -30,9 +29,12 @@ class SpecialHostStats extends SpecialPage {
 			}
 		}
 		$this->getOutput()->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
+=======
+		$this->getOutput->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
+>>>>>>> parent of 6a19864... (issue #1) Add a whitelist of commands that a person can run
 		$outpage = wfMessage( 'hoststats-intro' )->escaped();
 		$outpage .= "\n";
-		foreach ( $commands as $cmd ) {
+		foreach ( $wgHostStatsCommands as $cmd ) {
 			$outpage .= '<h3>' . $cmd . '</h3>';
 			$outpage .= "\n<pre>\n" . $this->query( $cmd ) . "</pre>";
 		}
@@ -42,13 +44,5 @@ class SpecialHostStats extends SpecialPage {
 	protected function query( $query ) {
 		$output = wfShellExec( $query );
 		return $output;
-	}
-
-	protected function whitelistedcmds() {
-		$this->cmdwhitelist = array(
-			'df',
-			'whoami',
-			'hostname',
-		);
 	}
 }
