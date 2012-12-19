@@ -14,7 +14,7 @@ $messages = array();
 $messages['en'] = array(
 	'hoststats' => '{{int:hoststats-title}}', // Do not translate this message
 	'hoststats-title' => 'Host statistics',
-	'hoststats-desc' => 'A tool to output the host statistics that the wiki is on.',
+	'hoststats-desc' => 'A tool to output the host statistics that the wiki is on',
 	'hoststats-intro' => 'This page shows some host statistics that the wiki is on.',
 );
 
@@ -74,6 +74,15 @@ $messages['he'] = array(
 	'hoststats-intro' => 'הדף הזה מציג סטטיסטיקות על הדף השוויקי נמצא בו.',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'hoststats-title' => 'Hostowa statistika',
+	'hoststats-desc' => 'Nastroj za wudawanje statistiki hosta, na kotrymž wiki je.',
+	'hoststats-intro' => 'Tuta strona pokazuje statistiku hosta, na kotrymž wiki je.',
+);
+
 /** Hungarian (magyar)
  * @author Tgr
  */
@@ -101,6 +110,15 @@ $messages['ja'] = array(
 	'hoststats-intro' => 'このページでは、ウィキが動作しているホストに関する統計を表示します。',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'hoststats-title' => 'Shtatistike vun heh däm Rääschner',
+	'hoststats-desc' => 'E Wärkzüsch öm de Schtatistike von däm Rääschner ußzejävve, woh dat Wiki dren lääf.',
+	'hoststats-intro' => 'He süht mer e paa Schtatistike von däm Rääschner, woh heh dat Wiki drop läuf.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -117,4 +135,22 @@ $messages['mk'] = array(
 	'hoststats-title' => 'Статистики за домаќинот',
 	'hoststats-desc' => 'Алатка за испис на статистики за домаќинот (опслужувачот на викито).',
 	'hoststats-intro' => 'На страницава се пркажани извсни статистики за домаќинот на викито.',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'hoststats-title' => 'Hoststatistieken',
+	'hoststats-desc' => 'Een hulpmiddel om de hoststatistieken waar de wiki op draait',
+	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'hoststats-title' => 'Статистика сервера',
+	'hoststats-desc' => 'Інструмент виведення статистики сервера, на якому знаходиться вікі',
+	'hoststats-intro' => 'На цій сторінці відображається деяка статистика сервера, на якому знаходиться вікі',
 );
