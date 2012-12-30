@@ -29,6 +29,15 @@ $messages['qqq'] = array(
 	'hoststats-intro' => 'The introduction to the special page. "Host" refers to the server the wiki is on.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'hoststats-title' => 'Estadístiques del sirvidor',
+	'hoststats-desc' => "Ferramienta qu'amuesa les estadístiques del sirvidor nel que ta la wiki.",
+	'hoststats-intro' => 'Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -36,6 +45,13 @@ $messages['de'] = array(
 	'hoststats-title' => 'Hoststatistiken',
 	'hoststats-desc' => 'Ergänzt ein Werkzeug zur Ausgabe von Statistiken des Hosts dieses Wikis',
 	'hoststats-intro' => 'Diese Seite zeigt einige Statistiken des Hosts dieses Wikis an.',
+);
+
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'hoststats-title' => 'Στατιστικά υποδοχής',
 );
 
 /** Spanish (español)
@@ -146,6 +162,29 @@ $messages['nl'] = array(
 	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'hoststats-title' => "Statìstiche dl'òspit",
+	'hoststats-desc' => "N'utiss për mosté le statìstiche dl'òspit anté a l'é la wiki",
+	'hoststats-intro' => "Sta pagina a mosta quaich statìstiche dl'òspit anté a l'é la wiki.",
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'hoststats-title' => 'Statistici de găzduire',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'hoststats-title' => 'ධාරක සංඛ්‍යා ලේඛන',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */
@@ -153,4 +192,22 @@ $messages['uk'] = array(
 	'hoststats-title' => 'Статистика сервера',
 	'hoststats-desc' => 'Інструмент виведення статистики сервера, на якому знаходиться вікі',
 	'hoststats-intro' => 'На цій сторінці відображається деяка статистика сервера, на якому знаходиться вікі',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'hoststats-title' => '服务器统计',
+	'hoststats-desc' => '一个输出维基在的服务器统计的工具',
+	'hoststats-intro' => '此页面显示出一些这个维基在的服务器的统计。',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Hydra
+ */
+$messages['zh-hant'] = array(
+	'hoststats-title' => '服務器統計',
+	'hoststats-desc' => '一個輸出維基在的服務器統計的工具',
+	'hoststats-intro' => '此頁面顯示出一些這個維基在的服務器的統計。',
 );
