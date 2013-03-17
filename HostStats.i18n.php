@@ -38,6 +38,13 @@ $messages['ast'] = array(
 	'hoststats-intro' => 'Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki.',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'hoststats-title' => 'Statistika serveru',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -70,6 +77,13 @@ $messages['fr'] = array(
 	'hoststats-title' => "Statistiques de l'hôte",
 	'hoststats-desc' => "Un outil pour sortir les statistiques de l'hôte sur lequel se trouve le wiki.",
 	'hoststats-intro' => "Cette page affiche des statistiques de l'hôte sur lequel se trouve le wiki.",
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'hoststats-title' => 'Statistiques de l’hôto',
 );
 
 /** Galician (galego)
@@ -126,6 +140,15 @@ $messages['ja'] = array(
 	'hoststats-intro' => 'このページでは、ウィキが動作しているホストに関する統計を表示します。',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'hoststats-title' => '호스트 통계',
+	'hoststats-desc' => '위키에 작동하는 호스트 통계를 출력하는 도구',
+	'hoststats-intro' => '이 문서는 위키에 작동하는 일부 호스트 통계를 보여줍니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -153,6 +176,15 @@ $messages['mk'] = array(
 	'hoststats-intro' => 'На страницава се пркажани извсни статистики за домаќинот на викито.',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'hoststats-title' => 'Statistik hos',
+	'hoststats-desc' => 'Alat untuk menyiarkan statistik hos wiki',
+	'hoststats-intro' => 'Halaman ini memaparkan sedikit statistik hos wiki.',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -163,12 +195,13 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'hoststats-title' => "Statìstiche dl'òspit",
-	'hoststats-desc' => "N'utiss për mosté le statìstiche dl'òspit anté a l'é la wiki",
-	'hoststats-intro' => "Sta pagina a mosta quaich statìstiche dl'òspit anté a l'é la wiki.",
+	'hoststats-desc' => "N'utiss për smon-e le statìstiche dl'òspit anté ch'a-i é la wiki",
+	'hoststats-intro' => "Costa pàgina a smon dle statìstiche dl'òspit anté ch'a-i é la wiki.",
 );
 
 /** Romanian (română)
@@ -176,6 +209,22 @@ $messages['pms'] = array(
  */
 $messages['ro'] = array(
 	'hoststats-title' => 'Statistici de găzduire',
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'hoststats-title' => "Statisteche de l'host",
+	'hoststats-desc' => "'Nu strumende pe dà le statisteche de l'host addò ste 'a uicchi",
+	'hoststats-intro' => "Sta pàgene face vedè quacche statisteche de l'host addò se iacchie 'a uicchi.",
+);
+
+/** Russian (русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'hoststats-title' => 'Статистика хоста',
 );
 
 /** Sinhala (සිංහල)
