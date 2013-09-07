@@ -24,7 +24,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'hoststats' => '{{notranslate}}',
-	'hoststats-title' => 'The title of the special page. "Host" refers to the server the wiki is on.',
+	'hoststats-title' => '{{doc-special|HostStats}}
+"Host" refers to the server the wiki is on.',
 	'hoststats-desc' => '{{desc|name=Host Stats|url=http://www.mediawiki.org/wiki/Extension:HostStats}}',
 	'hoststats-intro' => 'The introduction to the special page. "Host" refers to the server the wiki is on.',
 );
@@ -153,7 +154,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'hoststats-title' => 'Shtatistike vun heh däm Rääschner',
+	'hoststats-title' => 'Schtatistike vun heh däm Rääschner',
 	'hoststats-desc' => 'E Wärkzüsch öm de Schtatistike von däm Rääschner ußzejävve, woh dat Wiki dren lääf.',
 	'hoststats-intro' => 'He süht mer e paa Schtatistike von däm Rääschner, woh heh dat Wiki drop läuf.',
 );
@@ -192,6 +193,24 @@ $messages['nl'] = array(
 	'hoststats-title' => 'Hoststatistieken',
 	'hoststats-desc' => 'Een hulpmiddel om de hoststatistieken waar de wiki op draait',
 	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'hoststats-title' => "Estatisticas de l'òste",
+	'hoststats-desc' => "Una aisina per sortir las estatisticas de l'òste sul qual se tròba lo wiki.",
+	'hoststats-intro' => "Aquesta pagina aficha d'estatisticas de l'òste sul qual se tròba lo wiki.",
+);
+
+/** Polish (polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'hoststats-title' => 'Statystyki serwera',
+	'hoststats-desc' => 'Narzędzie do wyświetlania statystyk serwera, na którym uruchomiona jest wiki',
+	'hoststats-intro' => 'Ta strona pokazuje statystyki serwera, na którym uruchomiona jest wiki',
 );
 
 /** Piedmontese (Piemontèis)
