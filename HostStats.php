@@ -18,6 +18,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
 	'descriptionmsg' => 'hoststats-desc',
 	'version' => '1.3alpha',
+	'license-name' => 'GPL-3.0+',
 );
 
 // An array of commands that you wish to run and output.
@@ -29,5 +30,6 @@ $wgHostStatsCommands = array(
 $dir = dirname(__FILE__) . '/';
 $wgAutoloadClasses['SpecialHostStats'] = $dir . 'SpecialHostStats.php';
 $wgExtensionMessagesFiles['HostStats'] = $dir . 'HostStats.i18n.php';
+$wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
 $wgSpecialPages['HostStats'] = 'SpecialHostStats';
 $wgSpecialPageGroups['HostStats'] = 'wiki';
